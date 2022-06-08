@@ -5,10 +5,30 @@
     margin: 0;
     box-sizing: border-box;
 }
+ /* General */
 
 html {
     font-family: 'Open Sans', sans-serif;
 }
+
+.btn-blue {
+    background-color: #0161FF;
+    border: none;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.big-width {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.small-width {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 
 /* Header */
 
@@ -39,29 +59,20 @@ html {
     color: #fff;
 }
 
+.header-left, .header-right {
+    padding: 0 15px;
+}
+
 .header-left img {
     width: 80%;
     display: flex;
-    padding-left: 10px;
-}
-
-.btn-blue {
-    background-color: #0161FF;
-    border: none;
-    padding: 5px 10px;
-    text-decoration: none;
-    color: #fff;
 }
 
 .header-bottom {
     background-color: #B4D0E7;
     padding-top: 70px;
     height: 675px;
-}
-
-.big-width {
-    max-width: 1100px;
-    margin: 0 auto;
+    margin-bottom: 150px;
 }
 
 .header-bt-container {
@@ -87,6 +98,10 @@ html {
     margin-bottom: 30px;
 }
 
+.header-bt-left a i {
+    color: black;
+}
+
 #mini {
     margin-top: 30px;
     margin-bottom: 70px;
@@ -104,4 +119,124 @@ html {
     width: 40%;
 }
 
+/* Main */
 
+.main-container h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.radio-button {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.circle {
+    border: 5px blue solid;
+    background-color: white;
+}
+
+.empty {
+    background-color: #fff;
+    border: 2px grey solid;
+    margin-left: 30px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan {
+    border: 1px solid lightgrey;
+    width: 30%;
+}
+
+.plan-type {
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.plan-description {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.plan-description h3, .plan-description span {
+    padding: 10px 0;
+}
+
+.plan-description span {
+    color: grey;
+}
+
+.plan-text {
+    padding: 0 10px 30px 10px;
+}
+
+.plan-buy {
+    margin-top: 40px;
+}
+
+.plan-button{
+    text-align: center;
+}
+
+.plan-button a {
+    padding: 10px 25px;
+}
+
+#small-button {
+    padding: 10px 85px;
+}
+
+.plan hr  {
+    width: 70px;
+    margin: 20px 0 20px 10px;
+    background-color: grey;
+}
+
+.fa-check {
+    color: #0161FF;
+}
+
+.plan-large {
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid lightgrey;
+    position: relative;
+}
+
+.plan-large-type {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.plan-large-description {
+    padding-left: 20px;
+    width: 70%;
+}
+
+.plan-large-description h3{
+    padding: 15px 0;
+}
+
+.plan-large-description p {
+    padding: 40px 0 10px 0;
+}
+
+.plan-large-button {
+    position: absolute;
+    top: 75px;
+    right: 25px;
+}
