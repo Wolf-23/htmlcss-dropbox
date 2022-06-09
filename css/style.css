@@ -70,6 +70,10 @@ html {
     left: 0;
 }
 
+.header-top nav ul li a{
+    line-height: 70px;
+}
+
 .header-left ul, .header-right ul {
     list-style: none;
     align-items: center;
@@ -91,7 +95,7 @@ html {
 }
 
 .header-left img {
-    display: flex;
+    align-self:center;
 }
 
 .header-bottom {
@@ -460,11 +464,29 @@ footer {
 .language hr {
     width: 100px;
     margin-bottom: 50px;
-    border: 1px solid lightgrey;
+    background-color: lightgrey;
 }
 
 
 /* Hover Effects  */
+
+/* General */
+
+.btn-blue, .btn-partner {
+    transition: border-radius 1s linear;
+}
+
+.btn-blue:hover, .btn-partner:hover{
+    border-radius: 7px;
+}
+
+/* Header */
+.header-top nav li:not(.no-border):hover{
+    border-bottom: 2px solid green;
+}
+
+
+/* Main */
 
 .one-question:hover p{
     display: inline-block;
@@ -474,4 +496,14 @@ footer {
 
 .one-question:hover i {
     transform: rotate(180deg);
+}
+
+/*  */
+
+.list-footer li a:hover {
+    border-bottom: 1px solid #0161FF;
+}
+
+.buynow:visited {
+    color: #0061FF;
 }
