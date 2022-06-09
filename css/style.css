@@ -12,7 +12,7 @@ html {
 }
 
 .btn-blue {
-    background-color: #0161FF;
+    background-color: #0061FF;
     border: none;
     padding: 8px 10px;
     text-decoration: none;
@@ -29,6 +29,29 @@ html {
     margin: 0 auto;
 }
 
+.w-30 {
+    width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.flex {
+    display: flex;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
 
 /* Header */
 
@@ -36,15 +59,15 @@ html {
     height: 70px;
     width: 100vw;
     background-color: #fff;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 999;
+    top: 0;
+    left: 0;
 }
 
 .header-left ul, .header-right ul {
-    display: flex;
     list-style: none;
     align-items: center;
 }
@@ -57,6 +80,7 @@ html {
 
 .header-right li a.btn-blue {
     color: #fff;
+    padding: 5px 10px;
 }
 
 .header-left, .header-right {
@@ -64,7 +88,6 @@ html {
 }
 
 .header-left img {
-    width: 80%;
     display: flex;
 }
 
@@ -86,7 +109,6 @@ html {
 }
 
 .jumbo {
-    display: flex;
     height: 400px;
 }
 
@@ -110,15 +132,6 @@ html {
 .header-bt-left i {
     font-size: 40px;
 }
-
-.header-bt-right {
-    width: 60%;
-}
-
-.header-bt-left {
-    width: 40%;
-}
-
 /* Main */
 
 .main-container h2{
@@ -127,7 +140,6 @@ html {
 }
 
 .radio-button {
-    display: flex;
     margin-bottom: 30px;
 }
 
@@ -150,13 +162,11 @@ html {
 }
 
 .plan-container {
-    display: flex;
     justify-content: space-between;
 }
 
 .plan {
     border: 1px solid lightgrey;
-    width: 30%;
 }
 
 .plan-type {
@@ -165,55 +175,40 @@ html {
     border-bottom: 1px solid lightgray;
 }
 
-.plan-description {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-}
-
-.plan-description h3, .plan-description span {
-    padding: 10px 0;
-}
-
-.plan-description span {
-    color: grey;
-}
-
-.plan-text {
-    padding: 0 10px 30px 10px;
-}
-
-.plan-buy {
-    margin-top: 40px;
-}
-
-.plan-button{
-    text-align: center;
-}
-
-.plan-button a {
-    padding: 10px 25px;
-}
-
-#small-button {
-    padding: 10px 85px;
-}
-
-.plan hr  {
+.plan-list hr  {
     width: 70px;
-    margin: 20px 0 20px 10px;
-    background-color: grey;
+    margin: 20px 0 40px 20px;
+    border: 1px solid grey;
+}
+
+.plan-list ul{
+    list-style: none;
+    padding: 20px;
+}
+
+.plan-list li {
+    padding-bottom: 25px;
+}
+
+.plan-list li a.btn-blue {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .fa-check {
     color: #0161FF;
 }
 
+.grey-text {
+    color: gray;
+}
+
 .plan-large {
     width: 100%;
     margin-top: 40px;
     border: 1px solid lightgrey;
-    position: relative;
 }
 
 .plan-large-type {
@@ -224,7 +219,6 @@ html {
 
 .plan-large-description {
     padding-left: 20px;
-    width: 70%;
 }
 
 .plan-large-description h3{
@@ -236,7 +230,146 @@ html {
 }
 
 .plan-large-button {
-    position: absolute;
-    top: 75px;
-    right: 25px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+/* Partner */
+
+.partner {
+    margin-top: 100px;
+}
+
+.img-partner img{
+    width: 90%;
+}
+
+.text-partner {
+    padding: 40px 0;
+}
+
+.text-partner h3{
+    margin-bottom: 15px;
+}
+
+.text-partner p {
+    margin-bottom: 40px;
+}
+
+.btn-partner {
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid black;
+    color: #000;
+}
+
+/* Operation */
+
+.operation {
+    margin-top: 100px;
+}
+
+.operation-list {
+    justify-content: space-between;
+}
+
+.operation-item {
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.operation-item img {
+    width: 100%;
+}
+
+.operation-item h4 {
+    margin-bottom: 15px;
+}
+
+.team {
+    margin: 100px 0;
+}
+
+.team a {
+    color: #0161FF;
+}
+
+/* Square Zone */
+
+.square-container {
+    width: 100vw;
+}
+
+.square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.small-square {
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+}
+
+.small-square img {
+    width: 50%;
+    filter: invert(79%) sepia(100%) saturate(0%) hue-rotate(34deg) brightness(106%) contrast(107%);
+}
+
+#green-square {
+    background-color: #a2d39b;
+}
+
+#brown-square {
+    background-color: #61082b;
+}
+
+#skyblue-square {
+    background-color: #0093CE;
+}
+
+#skyblue-square img {
+    width: 50%;
+    height: 10%;
+}
+
+#red-square {
+    background-color: #ff1c1c;
+}
+
+#darkred-square {
+    background-color: #d5001f;
+}
+
+#lightblue-square {
+    background-color: #B4D0E7;
+}
+
+#blue-square {
+    background-color: #0d2481;
+}
+
+#yellow-square {
+    background-color: #ffd830;
+}
+
+#grey-square {
+    background-color: #F5F5F5;
+}
+
+.square#grey-square {
+    padding: 40px;
+    overflow: auto;
+}
+.square#grey-square img{
+    width: 60%;
+}
+.square#grey-square p {
+    margin: 20px 0;
+}
+
+.square#grey-square hr {
+    width: 70px;
+    margin: 25px 0;
 }
