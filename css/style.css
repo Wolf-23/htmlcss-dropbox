@@ -100,9 +100,12 @@ html {
 
 .header-bottom {
     background-color: #B4D0E7;
-    padding-top: 70px;
-    height: 675px;
     margin-bottom: 150px;
+}
+
+.header-position {
+    position: relative;
+    bottom: -80px;
 }
 
 .header-bt-container {
@@ -133,7 +136,7 @@ html {
 
 #mini {
     margin-top: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .header-bt-left i {
