@@ -83,6 +83,10 @@ html {
     align-items: center;
 }
 
+.header-left img {
+    width: 100px;
+}
+
 .header-left ul a, .header-right ul a {
     text-decoration: none;
     margin: 0 10px;
@@ -153,14 +157,15 @@ html {
     margin-bottom: 30px;
 }
 
+.radio-button span{
+    display: inline-block;
+    font-size: 13px;
+}
 .circle {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     margin: 0 5px;
-}
-
-.circle {
     border: 5px blue solid;
     background-color: white;
 }
@@ -197,8 +202,18 @@ html {
     padding: 20px;
 }
 
+.plan-list ul:last-child li {
+    text-indent: -9px;
+    padding-left: 20px;
+}
+
+.plan-list ul:last-child li:first-child {
+    padding-left: 9px;
+}
+
+
 .plan-list li {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 
 .plan-list li a.btn-blue {
@@ -206,6 +221,7 @@ html {
     display: inline-block;
     text-align: center;
     margin-top: 50px;
+    font-size: 13px;
 }
 
 .fa-check {
@@ -214,6 +230,7 @@ html {
 
 .grey-text {
     color: gray;
+    margin-bottom: 50px;
 }
 
 .plan-large {
@@ -244,6 +261,11 @@ html {
     text-align: center;
     display: inline-block;
     margin-top: 25px;
+}
+
+.plan-large-button a.btn-blue {
+    font-size: 13px;
+    padding: 8px 20px;
 }
 
 /* Partner */
@@ -292,10 +314,15 @@ html {
 
 .operation-item img {
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .operation-item h4 {
     margin-bottom: 15px;
+}
+
+.operation-item h4 {
+    font-size: 20px;
 }
 
 /* Team */
@@ -333,34 +360,42 @@ html {
 
 #green-square {
     background-color: #a2d39b;
+    border: 15px solid #a2d39b;
 }
 
 #brown-square {
     background-color: #61082b;
+    border: 15px solid #61082b;
 }
 
 #skyblue-square {
     background-color: #0093CE;
+    border: 15px solid #0093CE;
 }
 
 #red-square {
     background-color: #ff1c1c;
+    border: 15px solid #ff1c1c;
 }
 
 #darkred-square {
     background-color: #d5001f;
+    border: 15px solid #d5001f;
 }
 
 #lightblue-square {
     background-color: #B4D0E7;
+    border: 15px solid #B4D0E7;
 }
 
 #blue-square {
     background-color: #0d2481;
+    border: 15px solid #0d2481;
 }
 
 #yellow-square {
     background-color: #ffd830;
+    border: 15px solid #ffd830;
 }
 
 #grey-square {
@@ -376,7 +411,7 @@ html {
 }
 .square#grey-square p {
     margin: 20px 0;
-}
+}#ffd830
 
 .square#grey-square hr {
     width: 70px;
@@ -388,11 +423,12 @@ html {
     padding: 120px 0;
 }
 
-.square-bt a {
+.square-bt a.btn-blue {
     background-color: #fff;
     color: #000;
     display: inline-block;
     padding: 8px 25px;
+    font-size: 14px;
 }
 
 .square-bottom .small-width {
@@ -464,7 +500,7 @@ footer {
 }
 
 .language i, .language span{
-    color: #fff;
+    color: grey;
     padding: 0 3px ;
 }
 
@@ -498,7 +534,7 @@ footer {
 .one-question:hover p{
     display: inline-block;
     padding: 15px 0;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .one-question:hover i {
@@ -508,9 +544,41 @@ footer {
 /*  */
 
 .list-footer li a:hover {
-    border-bottom: 1px solid #0161FF;
+    border-bottom: 2px solid #0161FF;
 }
 
 .buynow:visited {
     color: #0061FF;
+}
+
+#green-square:hover {
+    border: 15px solid rgb(188, 244, 188);
+}
+
+#brown-square:hover {
+    border: 15px solid #954766;
+}
+
+#skyblue-square:hover {
+    border: 15px solid #73c7e8;
+}
+
+#red-square:hover {
+    border: 15px solid #fa6767;
+}
+
+#darkred-square:hover {
+    border: 15px solid #fa6767;
+}
+
+#lightblue-square:hover {
+    border: 15px solid #64b6fd;
+}
+
+#blue-square:hover {
+    border: 15px solid #4059be;
+}
+
+#yellow-square:hover {
+    border: 15px solid #f3ba00;
 }
