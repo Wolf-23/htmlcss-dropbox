@@ -167,6 +167,7 @@ html {
     border: 2px grey solid;
     margin-left: 30px;
 }
+ /* Plan */
 
 .plan-container {
     justify-content: space-between;
@@ -294,6 +295,8 @@ html {
     margin-bottom: 15px;
 }
 
+/* Team */
+
 .team {
     margin: 100px 0;
 }
@@ -398,6 +401,7 @@ html {
     color: #61082b;
     font-size: 30px;
 }
+ /* Question */
 
 .question {
     padding: 100px 0;
