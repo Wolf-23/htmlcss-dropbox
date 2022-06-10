@@ -70,8 +70,12 @@ html {
     left: 0;
 }
 
-.header-top nav ul li a{
+.header-top nav ul{
     line-height: 70px;
+}
+
+.header-top nav li {
+    border-bottom: 1px solid #FFF;
 }
 
 .header-left ul, .header-right ul {
@@ -92,10 +96,6 @@ html {
 
 .header-left, .header-right {
     padding: 0 15px;
-}
-
-.header-left img {
-    align-self:center;
 }
 
 .header-bottom {
