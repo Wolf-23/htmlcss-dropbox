@@ -146,6 +146,7 @@ html {
 .header-bt-left i {
     font-size: 40px;
 }
+
 /* Main */
 
 .business h2, .operation h2{
@@ -161,6 +162,7 @@ html {
     display: inline-block;
     font-size: 13px;
 }
+
 .circle {
     width: 20px;
     height: 20px;
@@ -175,7 +177,8 @@ html {
     border: 2px grey solid;
     margin-left: 30px;
 }
- /* Plan */
+
+/* Plan */
 
 .plan-container {
     justify-content: space-between;
@@ -210,7 +213,6 @@ html {
 .plan-list ul:last-child li:first-child {
     padding-left: 9px;
 }
-
 
 .plan-list li {
     padding-bottom: 20px;
@@ -406,12 +408,14 @@ html {
     padding: 40px;
     overflow: auto;
 }
+
 .square#grey-square img{
     width: 60%;
 }
+
 .square#grey-square p {
     margin: 20px 0;
-}#ffd830
+}
 
 .square#grey-square hr {
     width: 70px;
@@ -440,7 +444,8 @@ html {
     color: #61082b;
     font-size: 30px;
 }
- /* Question */
+
+/* Question */
 
 .question {
     padding: 100px 0;
@@ -524,6 +529,7 @@ footer {
 }
 
 /* Header */
+
 .header-top nav li:not(.no-border):hover{
     border-bottom: 2px solid #0061FF;
 }
@@ -541,7 +547,7 @@ footer {
     transform: rotate(180deg);
 }
 
-/*  */
+/* Footer */
 
 .list-footer li a:hover {
     border-bottom: 2px solid #0161FF;
