@@ -2,5 +2,5 @@
 
 * Nome: htmlcss-dropbox
 * Autore: Lupinu Riccardo
-* Data: 15/06/2022
+* Data: 08/06/2022
 * Linguaggio: HTML, CSS
